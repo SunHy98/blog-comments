@@ -1,0 +1,111 @@
+/*!
+ * giscus 水墨亮色 — 透明背景 + 松烟墨字 + 朱砂强调
+ */
+main {
+  --color-prettylights-syntax-comment: #8b8680;
+  --color-prettylights-syntax-constant: #0550ae;
+  --color-prettylights-syntax-entity: #8250df;
+  --color-prettylights-syntax-storage-modifier-import: #2d2d2d;
+  --color-prettylights-syntax-entity-tag: #116329;
+  --color-prettylights-syntax-keyword: #c24a3a;
+  --color-prettylights-syntax-string: #0a3069;
+  --color-prettylights-syntax-variable: #953800;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+  --color-prettylights-syntax-invalid-illegal-text: #faf8f2;
+  --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+  --color-prettylights-syntax-carriage-return-text: #faf8f2;
+  --color-prettylights-syntax-carriage-return-bg: #c24a3a;
+  --color-prettylights-syntax-string-regexp: #116329;
+  --color-prettylights-syntax-markup-list: #3b2300;
+  --color-prettylights-syntax-markup-heading: #0550ae;
+  --color-prettylights-syntax-markup-italic: #2d2d2d;
+  --color-prettylights-syntax-markup-bold: #2d2d2d;
+  --color-prettylights-syntax-markup-deleted-text: #82071e;
+  --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+  --color-prettylights-syntax-markup-inserted-text: #116329;
+  --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+  --color-prettylights-syntax-markup-changed-text: #953800;
+  --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+  --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+  --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+  --color-prettylights-syntax-meta-diff-range: #8250df;
+  --color-prettylights-syntax-brackethighlighter-angle: #6e6a63;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+  --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+
+  --color-btn-text: #2d2d2d;
+  --color-btn-bg: transparent;
+  --color-btn-border: rgb(39 29 23 / 40%);
+  --color-btn-shadow: none;
+  --color-btn-inset-shadow: none;
+  --color-btn-hover-bg: rgb(45 45 45 / 5%);
+  --color-btn-hover-border: #c24a3a;
+  --color-btn-active-bg: rgb(45 45 45 / 8%);
+  --color-btn-active-border: #c24a3a;
+  --color-btn-selected-bg: rgb(194 74 58 / 8%);
+
+  --color-btn-primary-text: #fff;
+  --color-btn-primary-bg: #c24a3a;
+  --color-btn-primary-border: rgb(39 29 23 / 40%);
+  --color-btn-primary-shadow: none;
+  --color-btn-primary-inset-shadow: none;
+  --color-btn-primary-hover-bg: #b33e30;
+  --color-btn-primary-hover-border: #b33e30;
+  --color-btn-primary-selected-bg: #a33628;
+  --color-btn-primary-selected-shadow: none;
+  --color-btn-primary-disabled-text: rgb(255 255 255 / 80%);
+  --color-btn-primary-disabled-bg: #d4988e;
+  --color-btn-primary-disabled-border: #d4988e;
+
+  --color-action-list-item-default-hover-bg: rgb(45 45 45 / 4%);
+  --color-segmented-control-bg: transparent;
+  --color-segmented-control-button-bg: transparent;
+  --color-segmented-control-button-selected-border: rgb(39 29 23 / 40%);
+
+  --color-fg-default: #2d2d2d;
+  --color-fg-muted: #6b6660;
+  --color-fg-subtle: #8b8680;
+
+  --color-canvas-default: transparent;
+  --color-canvas-overlay: rgba(255 255 255 / 94%);
+  --color-canvas-inset: transparent;
+  --color-canvas-subtle: transparent;
+
+  --color-border-default: rgb(39 29 23 / 40%);
+  --color-border-muted: rgb(39 29 23 / 40%);
+  --color-neutral-muted: rgb(39 29 23 / 40%);
+
+  --color-accent-fg: #c24a3a;
+  --color-accent-emphasis: #c24a3a;
+  --color-accent-muted: rgb(39 29 23 / 40%);
+  --color-accent-subtle: rgb(194 74 58 / 6%);
+
+  --color-success-fg: #1a7f37;
+  --color-attention-fg: #9a6700;
+  --color-attention-muted: rgb(212 167 44 / 30%);
+  --color-attention-subtle: #fff8c5;
+  --color-danger-fg: #c24a3a;
+  --color-danger-muted: rgb(39 29 23 / 40%);
+  --color-danger-subtle: rgb(194 74 58 / 6%);
+
+  --color-primer-shadow-inset: none;
+  --color-scale-gray-1: #eaeef2;
+  --color-scale-blue-1: #b6e3ff;
+  --color-social-reaction-bg-hover: var(--color-scale-gray-1);
+  --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
+}
+
+main,
+main * {
+  font-family: 'LXGW WenKai', 'Kaiti SC', 'KaiTi', 'STKaiti', serif !important;
+  font-size: 1rem;
+  border-radius: 0 !important;
+}
+
+main .pagination-loader-container {
+  background-image: url('https://github.com/images/modules/pulls/progressive-disclosure-line.svg');
+}
+
+main .gsc-loading-image {
+  background-image: url('https://github.githubassets.com/images/mona-loading-default.gif');
+}
