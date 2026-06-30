@@ -97,9 +97,9 @@ main {
 
 main,
 main * {
-  font-family: 'LXGW WenKai', 'Kaiti SC', 'KaiTi', 'STKaiti', serif !important;
+  font-family: 'Noto Serif SC', 'Fraunces', ui-serif, Georgia, serif !important;
   font-size: 1rem;
-  border-radius: 0 !important;
+  border-style: dashed !important;
 }
 
 main .pagination-loader-container {
@@ -108,4 +108,23 @@ main .pagination-loader-container {
 
 main .gsc-loading-image {
   background-image: url('https://github.githubassets.com/images/mona-loading-default.gif');
+}
+
+main .gsc-social-reaction-summary-item {
+  border-width: 0px !important;
+}
+
+main .gsc-social-reaction-summary-item.has-reacted {
+  background-color: transparent !important;
+  border-width: 0px !important;
+  color: var(--color-fg-muted, var(--color-text-secondary)) !important;
+}
+
+main .gsc-social-reaction-summary-item.has-reacted:enabled {
+  transition: transform 0.2s ease;
+}
+
+main .gsc-social-reaction-summary-item.has-reacted:hover:enabled {
+  background-color: transparent !important;
+  transform: scale(1.3);
 }
